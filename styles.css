@@ -8,10 +8,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
 h1 {
     font-weight: bold;
+    transition: filter 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
 .llc {
