@@ -8,11 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
 h1 {
     font-weight: bold;
-    transition: filter 0.3s ease; /* Smooth transition */
 }
 
 .llc {
@@ -23,10 +23,10 @@ h1 {
 
 .llc p {
     font-size: 12px; /* Adjust the font size as needed */
-
 }
 
-body:hover {
-    background-color: white;
-    color: black;
+h1:hover {
+    filter: invert(100%);
+    color: black; /* Invert text color to black */
+    cursor: pointer; /* Change cursor to indicate interactivity */
 }
