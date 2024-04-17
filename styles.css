@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
 h1 {
@@ -26,5 +25,6 @@ h1 {
 }
 
 .inverted {
-    filter: invert(100%);
+    background-color: white;
+    color: black;
 }
