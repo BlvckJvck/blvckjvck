@@ -28,3 +28,8 @@ h1 {
 h1:hover {
     filter: invert(100%);
 }
+
+body:hover {
+    background-color: white;
+    color: black;
+}
