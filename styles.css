@@ -1,46 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Title Here</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        h1 {
-            font-weight: bold;
-        }
-        
-        .llc {
-            position: absolute;
-            bottom: 10px;
-            width: 100%;
-        }
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-        .llc p {
-            font-size: 12px; /* Adjust the font size as needed */
-        }
+h1 {
+    font-weight: bold;
+    transition: filter 0.3s ease; /* Smooth transition */
+}
 
-        h1:hover {
-            filter: invert(100%);
-        }
-    </style>
-</head>
-<body>
-    <h1>BLVCKJVCK</h1>
-    <div class="llc">
-        <p>LLC</p>
-        <p>Small text directly under LLC</p> <!-- New paragraph tag -->
-    </div>
-</body>
-</html>
+.llc {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.llc p {
+    font-size: 12px; /* Adjust the font size as needed */
+}
+
+h1:hover {
+    filter: invert(100%);
+}
