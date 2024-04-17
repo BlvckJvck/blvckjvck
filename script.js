@@ -1,9 +1,10 @@
 const heading = document.getElementById('heading');
+const body = document.body;
 
 heading.addEventListener('mouseenter', () => {
-    document.body.classList.add('inverted');
+    body.classList.add('inverted');
 });
 
 heading.addEventListener('mouseleave', () => {
-    document.body.classList.remove('inverted');
+    body.classList.remove('inverted');
 });
