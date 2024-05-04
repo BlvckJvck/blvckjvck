@@ -1,4 +1,4 @@
-BlvckJvck LLC - Casino & Resort
+BlvckJvck LLC - Online Casino & Future Grand Resort x Suite - Tailored & Suited to Perfection by L'Œuvre D'une Vie - 21+
 
 <!--
 **BlvckJvck/blvckjvck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
