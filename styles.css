@@ -1,32 +1,35 @@
 body {
-    background-color: white;
-    color: black;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-image: url('https://bafybeiaiam6ioicph2bti4cyfh7hzrszcid5fn2sxpbpu7b3kc2vq2xupq.ipfs.w3s.link/drop.mp4');
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-    font-weight: bold;
-    transition: filter 0.3s ease, color 0.3s ease; /* Smooth transition */
+  font-weight: bold;
+  transition: filter 0.3s ease, color 0.3s ease;
 }
 
 .llc {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
 
 .llc p {
-    font-size: 12px; /* Adjust the font size as needed */
+  font-size: 12px; /* Adjust the font size as needed */
 }
 
 .inverted {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
