@@ -1,35 +1,48 @@
 body {
-  background-color: white;
-  color: black;
-  text-align: center;
   margin: 0;
   padding: 0;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Centers content vertically */
+  align-items: center;    /* Centers content horizontally */
+  overflow: hidden;
+  text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-image: url('https://bafybeiaiam6ioicph2bti4cyfh7hzrszcid5fn2sxpbpu7b3kc2vq2xupq.ipfs.w3s.link/drop.mp4');
-  background-size: cover;
-  background-position: center;
+}
+
+#background-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: black; /* Fallback background */
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none; /* Hide video by default */
 }
 
 h1 {
   font-weight: bold;
+  margin: 0; /* Remove default margins */
   transition: filter 0.3s ease, color 0.3s ease;
 }
 
 .llc {
   position: absolute;
-  bottom: 10px;
+  bottom: 10px; /* Keeps it at the bottom */
   width: 100%;
+  text-align: center;
+  margin: 0; /* Remove any default margins */
 }
 
 .llc p {
   font-size: 12px; /* Adjust the font size as needed */
-}
-
-.inverted {
-  background-color: black;
-  color: white;
+  margin: 0; /* Remove default margins for consistency */
 }
